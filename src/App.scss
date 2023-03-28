@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(132, 181, 224);
+}
+.App { 
+  margin-top: 200px;
+  width: 550px;
+  min-height: 450px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin-left: 650px;
+  border-radius: 10px;
+      h1 {
+        margin-left: 200px;
+        position: absolute;
+        margin-top: 30px;
+      } 
+      input {
+        margin-top: 120px;
+        margin-left: 170px;
+        position: absolute;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+      button {
+        
+        margin-top: 120px;
+        position: absolute;
+        background-color: #489cc1;
+        color: aliceblue;
+        border: none;
+        margin-left: 365px;
+        border-radius: 5px;
+        width: 25px;
+      }
+      ol {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 215px;
+            li {
+              margin-top: 1px;
+                  span {
+                    cursor: pointer;
+                    font-size: 20px;
+                    font-weight: bolder;
+                  }
+            }
+      }
+}
