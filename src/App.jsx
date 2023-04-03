@@ -16,6 +16,7 @@ function App() {
   }
   const handleDelete = (id) =>{
         setJobs(prev => prev.filter(job => job.id !== id))
+        inputRef.current.focus()
   }
 
   return (
